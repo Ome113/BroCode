@@ -1,0 +1,129 @@
+body{
+    background: url(img/uchi.png);
+    background-position: center;
+}
+
+.logo{
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+}
+
+
+.login{
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background: url(img/itachi1.jpg);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 200px 100px;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+
+
+.sign-up{
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    background: url(img/itachi1.jpg);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 200px 100px;
+    margin-left: 470px;
+    margin-top: 50px;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(40%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px; 
+}
+
+h1{
+    font-weight: normal;
+    font-size: 24px;
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+
+label{
+    color:rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10;
+
+}
+
+input{
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    border-color: rgb(43, 43, 105);
+    margin-bottom: 20px;
+    color: white; 
+}
+
+button{
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px ;
+    border-color: rgb(43, 43, 105);
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav-link {
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px ;
+    border-color: rgb(43, 43, 105);
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.nav-link:hover{
+    color: aquamarine;
+}
+
+.file_submit:hover{
+    color: aquamarine;
+}
+.nav-link {
+    background: transparent;
+    width: 320px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    border-color: rgb(43, 43, 105);
+    margin-bottom: 20px;
+    color: white; 
+}
